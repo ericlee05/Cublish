@@ -1,0 +1,26 @@
+{
+  "name": "cublish",
+  "version": "1.0.0",
+  "description": "Make your images into cubes like App store images",
+  "main": "./dist/App.js",
+  "scripts": {
+    "start": "tsc && node ./dist/App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VINTO1819/Cublish.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VINTO1819/Cublish/issues"
+  },
+  "homepage": "https://github.com/VINTO1819/Cublish#readme",
+  "dependencies": {
+    "@types/ejs": "^3.0.5",
+    "@types/express": "^4.17.9",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}
